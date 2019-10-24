@@ -6,4 +6,8 @@ I am a bioinformatics scientist enthusiastic about perl5/perl6/raku. Vist my lab
 ## Hello bioinformaticians
  
   * Raku tutorial to get you started: I found this tutorial to be very good: https://perl6intro.com/
+  * Your first raku program
+  ```shell
+  perl6 -e "'hello bioinformatics'.say"
+  ```
 
