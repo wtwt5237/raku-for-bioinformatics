@@ -6,9 +6,9 @@ I am a bioinformatics scientist enthusiastic about perl5/perl6/raku. Vist my lab
 ## Hello bioinformaticians
  
 * Raku tutorial to get you started: I found this tutorial to be very good: https://perl6intro.com/
-* Your first raku experience. After you have installed raku, run this in the shell console
+* Your first raku experience. After you have installed raku, run this in the shell console, and you should get "hello bioinformatics!"
   ```shell
-  perl6 -e "'hello bioinformatics'.say"
+  perl6 -e "'hello bioinformatics!'.say"
   ```
 * Your first raku script. Create a script with the name test.p6 using your favorite text editor. Type the following
   ```raku
