@@ -27,7 +27,7 @@ I am a bioinformatics scientist enthusiastic about perl5/perl6/raku. Vist my lab
   And you should get "[bioinformatics is awesome!]"
 * Your first raku bug? Debug it! Type the follwing in the console
   ```shell
-  perl6-debug-m ~/iproject/test.p6
+  perl6-debug-m test.p6
   ```
 
   
