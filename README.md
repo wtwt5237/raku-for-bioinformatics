@@ -6,12 +6,12 @@ I am a bioinformatics scientist enthusiastic about perl5/perl6/raku. Vist my lab
 ## Hello bioinformaticians
  
 * Download and install raku: https://perl6.org/downloads/
-* Raku tutorial to get you started: I found this tutorial to be very good: https://perl6intro.com/
+* Raku tutorial to get you started. I found this tutorial to be very good: https://perl6intro.com/
 * Your first raku experience. After you have installed raku, run this in the shell console, and you should get "hello bioinformatics!"
   ```shell
   perl6 -e "'hello bioinformatics!'.say"
   ```
-* Your first raku script. Create a script with the name test.p6 using your favorite text editor. Type the following
+* Your first raku script. Create a script with the name test.p6 using your favorite text editor. Type up the following in a script called test.p6
   ```raku
   #!/usr/bin/env perl6
   my @array[3];
@@ -25,7 +25,10 @@ I am a bioinformatics scientist enthusiastic about perl5/perl6/raku. Vist my lab
   perl6 test.p6
   ```
   And you should get "[bioinformatics is awesome!]"
-  
+* Your first raku bug? Debug it! Type the follwing in the console
+  ```shell
+  perl6-debug-m ~/iproject/test.p6
+  ```
 
   
 
