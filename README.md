@@ -11,7 +11,7 @@ I am a bioinformatics scientist enthusiastic about perl5/perl6/raku. Vist my lab
   ```shell
   perl6 -e "'hello bioinformatics!'.say"
   ```
-* Your first raku script. Create a script with the name test.p6 using your favorite text editor. Type up the following in a script called test.p6
+* Your first raku script. Create a script with the name test.p6 using your favorite text editor. This is its content:
   ```raku
   #!/usr/bin/env perl6
   my @array[3];
