@@ -1,7 +1,7 @@
 # raku-4-bioinformatics
 Raku/Perl6 Resources for bioinformatics research by Tao Wang
 
-I am a bioinformatics scientist enthusiastic about perl5/perl6/raku. Vist my lab website for more bioinformatics resources: https://qbrc.swmed.edu/labs/wanglab/index.php
+I am a bioinformatics scientist and a perl diehard. Vist my lab website for more bioinformatics resources: https://qbrc.swmed.edu/labs/wanglab/index.php
 
 ## Hello bioinformaticians
  
