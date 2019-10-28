@@ -1,7 +1,14 @@
 
 {
+    "auth" : "wtwt5237",
+    "version" : "0.0.1",
+    "perl" : "6.c",
     "name" : "trivial",
+    "description" : "A most trivial Raku module",
     "provides" : {
         "trivial" : "lib/trivial.pm6"
     },
+    "tags": ["trivial"],
+    "source-url" : "https://github.com/wtwt5237/raku-4-bioinformatics/tree/master/Make%20Perl%20great%20again/trivial"
 }
+
