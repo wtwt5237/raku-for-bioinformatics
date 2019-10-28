@@ -1,1 +1,7 @@
 
+{
+    "name" : "trivial",
+    "provides" : {
+        "trivial" : "lib/trivial.pm6"
+    },
+}
