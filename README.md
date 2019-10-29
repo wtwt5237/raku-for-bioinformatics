@@ -34,4 +34,5 @@ I am a bioinformatics scientist and a Perl diehard. Vist my lab website for more
   
 You can help make Perl great again (or more exactly, make Perl6/Raku great) in so many ways!
 * Contribute your own Perl6/Raku modules: https://modules.perl6.org/
-* I have created a trivial Raku module that is truly trivial but can serve as a good example of how to set up a Raku module. Check the ["/Make Perl great again/trivial"](https://github.com/wtwt5237/raku-4-bioinformatics/tree/master/Make%20Perl%20great%20again/trivial) folder
+* Basic instructions for creating Raku modules: https://docs.perl6.org/language/modules
+* I have created a trivial Raku module that is nothing more than a skeleton Raku module but can serve as a good reference point of starting a Raku module. Check the ["/Make Perl great again/trivial"](https://github.com/wtwt5237/raku-4-bioinformatics/tree/master/Make%20Perl%20great%20again/trivial) folder
