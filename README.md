@@ -1,4 +1,4 @@
-# raku-4-bioinformatics
+# Raku and Perl6 for Bioinformatics
 Raku/Perl6 resources for bioinformatics research by Tao Wang. This github repository serves as an introduction to Raku/Perl6 for bioinformaticians and general programmers, with linkes to more advanced resources listed where appropriate.
 
 I am a bioinformatics scientist and a Perl diehard. Vist my lab website for more bioinformatics resources: https://qbrc.swmed.edu/labs/wanglab/index.php
