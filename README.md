@@ -34,10 +34,10 @@ I am a bioinformatics scientist and a Perl diehard. Vist my lab website for more
 
 This section provides a benchmark of performance of Raku, for a simple and barely useful job of parsing a small SAM file. A perl5 script is used as a control. An evolving Raku script (with each version documented) is run against the most recent Raku release, and the time it takes for the script to finish is documented. The purpose of this practice is to show how the improvement in the Raku compiler and coding manner can affect performance
 
-| Script         | Release       | Time    |
-| -------        | -------       | -----   |
-| benchmark.pl   | NA            |         |
-| benchmark1.p6  | 2019.03       |         | 
+| Script         | Release       | Time    | SAM       | Comment  |
+| -------        | -------       | -----   | ---       | ---      |
+| benchmark.pl   | NA            |         | test1.sam |          |
+| benchmark1.p6  | 2019.03       |         | test1.sam |          |
 
 ## Make Perl great again
   
