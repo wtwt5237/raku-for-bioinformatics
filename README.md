@@ -30,6 +30,15 @@ I am a bioinformatics scientist and a Perl diehard. Vist my lab website for more
   perl6-debug-m test.p6
   ```
   
+## Come on, sister
+
+This section provides a benchmark of performance of Raku, for a simple and barely useful job of parsing a small SAM file. A perl5 script is used as a control. An evolving Raku script (with each version documented) is run against the most recent Raku release, and the time it takes for the script to finish is documented. The purpose of this practice is to show how the improvement in the Raku compiler and coding manner can affect performance
+
+| Script         | Release       | Time    |
+| -------        | -------       | -----   |
+| benchmark.pl   | NA            |         |
+| benchmark1.p6  | 2019.03       |         | 
+
 ## Make Perl great again
   
 You can help make Perl great again (or more exactly, make Perl6/Raku great) in so many ways!
