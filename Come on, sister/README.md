@@ -4,7 +4,7 @@ In this folder
 
 Folder: sam
 
-Description: The SAM file used for the benchmarking purpose
+Description: The SAM file used for the benchmarking purpose. test2.sam is 10 times the size of test1.sam and test3.sam is 10 times the size of test2.sam
 
 -------------------------------
 
