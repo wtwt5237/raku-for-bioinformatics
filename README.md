@@ -5,7 +5,7 @@ I am a bioinformatics scientist and a Perl diehard. Vist my lab website for more
 
 ## Hello bioinformaticians
  
-* Download and install raku: https://perl6.org/downloads/
+* Download and install raku: https://perl6.org/downloads/ or https://github.com/rakudo/rakudo/releases
 * Raku tutorial to get you started. I found this tutorial to be very good: https://perl6intro.com/
 * Full Raku documentation: https://docs.perl6.org/
 * More explanations of Raku grammar: https://perl6advent.wordpress.com/
