@@ -14,4 +14,5 @@ Description: This folder contains the perl5 and Raku scripts for benchmarking. R
 
 ```shell
 time perl benchmark.pl test1.sam
+time perl6 benchmark.p6 --sam_file=test1.sam
 ```
