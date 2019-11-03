@@ -40,6 +40,7 @@ This section provides a benchmark of performance of Raku, for a simple and barel
 | -------        | -------       | -----         | ---          | ---            |   ---        |    ---   |
 | benchmark.pl   | v5.22.1       |  test1.sam    |   0.195      |   0.184        |  0.005       |          |
 | benchmark1.p6  | 2019.03       |  test1.sam    |   9.975      |   10.454       |  0.153       |          |
+| benchmark1.p6  | 2019.07.1     |  test1.sam    |   6.376      |   6.704        |  0.176       |          |
 
 ## Make Perl great again
   
