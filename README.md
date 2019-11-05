@@ -42,7 +42,7 @@ This section provides a benchmark of performance of Raku, for a simple and barel
 | benchmark1.p6  | 2019.03       |  test1.sam    |   9.975      |   10.454       |  0.153       |          |
 | benchmark1.p6  | 2019.07.1     |  test1.sam    |   6.376      |   6.704        |  0.176       |          |
 
-Other than waiting on the Rakudo compiler to improve its design, programmers can profile their Raku scripts to find places that can be better coded:
+Raku does have a built-in profiler for measuring performance of codes, but I do find it hard to understand its output
 
 ```shell
 perl6 --profile=profile.html benchmark.p6 --sam_file=test1.sam
