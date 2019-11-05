@@ -45,7 +45,7 @@ This section provides a benchmark of performance of Raku, for a simple and barel
 Other than waiting on the Rakudo compiler to improve its design, programmers can profile their Raku scripts to find places that can be better coded:
 
 ```shell
-perl6 --profiler test.p6
+perl6 --profile=profile.html benchmark.p6 --sam_file=test1.sam
 ```
 
 ## Make Perl great again
