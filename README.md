@@ -42,6 +42,12 @@ This section provides a benchmark of performance of Raku, for a simple and barel
 | benchmark1.p6  | 2019.03       |  test1.sam    |   9.975      |   10.454       |  0.153       |          |
 | benchmark1.p6  | 2019.07.1     |  test1.sam    |   6.376      |   6.704        |  0.176       |          |
 
+Other than waiting on the Rakudo compiler to improve its design, programmers can profile their Raku scripts to find places that can be better coded:
+
+```shell
+perl6 --profiler test.p6
+```
+
 ## Make Perl great again
   
 You can help make Perl great again (or more exactly, make Perl6/Raku great) in so many ways!
