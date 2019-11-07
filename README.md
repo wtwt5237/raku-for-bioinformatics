@@ -48,6 +48,12 @@ Raku does have a built-in profiler for measuring performance of codes, but I do 
 perl6 --profile=profile.html benchmark.p6 --sam_file=test1.sam
 ```
 
+## Math in Raku
+
+Bioinformatics involves a lot of math, statistics, machine learning, data science ... Let's see how Raku does in terms of handling numbers and formula
+
+Reference: https://docs.perl6.org/language/math
+
 ## Make Perl great again
   
 You can help make Perl great again (or more exactly, make Perl6/Raku great) in so many ways!
