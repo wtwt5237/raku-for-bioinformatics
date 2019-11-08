@@ -53,3 +53,39 @@ sub MAIN (Str :$sam_file) # raku's way of getting commandline args
     }
 }
 
+=begin comment
+
+comments from lizmat:
+
+Original runs at about 4 seconds on my machine. The alternate version runs
+between 1.2 and 1.6 seconds. This range is probably caused by the fact that
+that parallelizing does not really heat up for such a small workload, so it
+is very dependent on outside influences.
+
+What did I change? I guess the most important part is that I created a class
+for keeping / updating the information about a Sam line. This feels contrary
+when coming from Perl, but in Raku classes / object building is heavily
+optimised: that is needed because everything in Raku is an object. So
+instead of a hash of hashes, a hash of Sam objects is created. Accessing
+attributes in the object uses the same name as the keys that were used.
+
+Secondly, when at all possible, cheaper versions of regular expressions were
+used. Or no regular expression at all (the starts-with).
+
+Thirdly, it is always better to think of these types of processes as pipelines.
+Why? Because then less storage is needed for intermediate vaues. But more
+importanty, when set up properly, they lend themselves to be parallelized.
+
+So by making it a map on the lines from the file, the only thing that is needed
+to parallelize, is to add the "race" to make it attempt to use all available
+cores. Since the result is stored in an unordered hash, "race" can be used.
+If you needed resuls in the same order as the original values, then you should
+use "hyper".
+
+Finally, in case you wondered, for $filename.IO.lines is really the idiom for
+lazily reading lines from a file. AKA, this will not slurp all lines into
+memory in Raku.
+
+=end comment
+
+
