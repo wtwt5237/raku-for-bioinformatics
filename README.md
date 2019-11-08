@@ -37,11 +37,12 @@ I am a bioinformatics scientist and a Perl diehard. Vist my lab website for more
 
 This section provides a benchmark of performance of Raku, for a simple and barely useful job of parsing a small SAM file. A perl5 script is used as a control. An evolving Raku script (with each version documented) is run against the most recent Raku release, and the time it takes for the script to finish is documented. The purpose of this practice is to show how the improvement in the Raku compiler and coding manner can affect performance
 
-| Script         | Release       | SAM           | Time (real)  |  Time (user)   | Time (sys)   | Comment  |
-| -------        | -------       | -----         | ---          | ---            |   ---        |    ---   |
-| benchmark.pl   | v5.22.1       |  test1.sam    |   0.195      |   0.184        |  0.005       |          |
-| benchmark1.p6  | 2019.03       |  test1.sam    |   9.975      |   10.454       |  0.153       |          |
-| benchmark1.p6  | 2019.07.1     |  test1.sam    |   6.376      |   6.704        |  0.176       |          |
+| Script         | Release       | SAM           | Time (real)  |  Time (user)   | Time (sys)   | Comment                 |
+| -------        | -------       | -----         | ---          | ---            |   ---        |    ---                  |
+| benchmark.pl   | v5.22.1       |  test1.sam    |   0.195      |   0.184        |  0.005       |                         |
+| benchmark1.p6  | 2019.03       |  test1.sam    |   9.975      |   10.454       |  0.153       |                         |
+| benchmark1.p6  | 2019.07.1     |  test1.sam    |   6.376      |   6.704        |  0.176       |                         |
+| benchmark2.p6  | 2019.07.1     |  test1.sam    |   1.758      |   5.309        |  0.181       | credit goes to lizmat!  |
 
 Raku does have a built-in profiler for measuring performance of codes, but I do find it hard to understand its output
 
