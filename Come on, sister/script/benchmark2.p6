@@ -1,7 +1,7 @@
 #!/usr/bin/env perl6
 
 class Sam {
-    has $.flag  is required;
+    has $.flag  is required; # use of "is required": https://docs.perl6.org/routine/is%20required
     has $.chr   is required;
     has $.start is required;
     has $.CIGAR is required;
