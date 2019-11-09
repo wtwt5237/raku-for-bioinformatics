@@ -16,3 +16,9 @@ Description: This folder contains the perl5 and Raku scripts for benchmarking. R
 time perl benchmark.pl test1.sam
 time perl6 benchmark.p6 --sam_file=test1.sam
 ```
+
+--------------------------------
+
+Folder: fastq
+
+Description: This folder has a pair of very small example fastq files
