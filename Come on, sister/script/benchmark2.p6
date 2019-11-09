@@ -25,13 +25,12 @@ class Sam {
 
     method TWEAK(--> Nil)
     {
-        $!MD = $!MD.substr(5)
-          if $!MD.starts-with("MD:Z:"); # modify the MD field
+        $!MD = $!MD.substr(5); # modify the MD field
 
         $!seq = $!seq.substr($0)
           if $!CIGAR~~s/^(\d+)S//; # clip the sequence field
         $!seq = $!seq.substr(0, * - $0)
-          if $!CIGAR~~s/^(\d+)S//; # clip the sequence field
+          if $!CIGAR~~s/(\d+)S$//; # clip the sequence field
 
         $!end = $!start - 1; # calculate the end of the alignment
         $!end += $_ for $!CIGAR.match(/ (\d+) <!before I> /, :g);
