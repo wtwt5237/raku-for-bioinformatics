@@ -33,7 +33,7 @@ class Sam {
           if $!CIGAR~~s/(\d+)S$//; # clip the sequence field
 
         $!end = $!start - 1; # calculate the end of the alignment
-        $!end += $_ for $!CIGAR.match(/ (\d+) <!before I> /, :g);
+        $!end += $_ for $!CIGAR.match(/ (\d+) <!before I> /, :g); # <!beforer XXX>: https://docs.perl6.org/language/regexes#Capture_markers:_%3C(_)%3E
     }
 }
 
