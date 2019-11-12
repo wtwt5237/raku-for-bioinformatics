@@ -32,6 +32,7 @@ I am a bioinformatics scientist and a Perl diehard. Vist my lab website for more
   ```shell
   perl6-debug-m test.p6
   ```
+  But the Raku IDE has much more professional debugging methods
   
 ## Come on, sister
 
