@@ -54,7 +54,13 @@ perl6 --profile=profile.html benchmark.p6 --sam_file=test1.sam
 
 Bioinformatics involves a lot of math, statistics, machine learning, data science ... Let's see how Raku does in terms of handling numbers and formula
 
-Reference: https://docs.perl6.org/language/math
+Em...it looks like math in Raku is still preliminary
+
+## Raku IDE
+
+Now we finally have an IDE for Raku now: https://commaide.com/. Believe it or not, I worked with Perl using just Vim and not any IDE for 8 years...
+
+![alt text](https://github.com/wtwt5237/perl6-for-bioinformatics/blob/master/Hello%20bioinformaticians/comma.png)
 
 ## Make Perl great again
   
@@ -64,3 +70,4 @@ You can help make Perl great again (or more exactly, make Perl6/Raku great) in s
 * I have created a trivial Raku module that is nothing more than a skeleton Raku module but can serve as a good reference point of starting a Raku module. Check the ["/Make Perl great again/trivial"](https://github.com/wtwt5237/raku-4-bioinformatics/tree/master/Make%20Perl%20great%20again/trivial) folder
 * If you find bugs in Raku, you can report here: https://github.com/rakudo/rakudo/issues
 * Raku discussion forum, home to many passionate Raku folks: https://webchat.freenode.net/#raku
+
