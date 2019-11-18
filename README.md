@@ -55,7 +55,14 @@ perl6 --profile=profile.html benchmark.p6 --sam_file=test1.sam
 
 Bioinformatics involves a lot of math, statistics, machine learning, data science ... Let's see how Raku does in terms of handling numbers and formula
 
-Em...it looks like math in Raku is still preliminary
+* Raku's inherent number processing capabilities
+
+Raku, compared to Perl 5, has incorporated some useful functionality to handle scientific computations in the core of the language. For example
+
+```Raku
+10.rand # random number generation
+my $rat=<4/6> # representing real numbers as fractions to preserve accuracy
+```
 
 ## Raku IDE
 
