@@ -62,6 +62,7 @@ Raku, compared to Perl 5, has incorporated some useful functionality to handle s
 ```Raku
 10.rand # random number generation
 my $rat=<4/6> # representing real numbers as fractions to preserve accuracy
+5e3 # scientific notation
 ```
 
 ## Raku IDE
