@@ -5,7 +5,7 @@ I am a bioinformatics scientist and a Perl diehard. Vist my lab website for more
 
 ## Hello bioinformaticians
  
-* Download and install raku: https://www.moarvm.org/ (see https://perl6.org/downloads/ for instructions)
+* Download and install raku: https://github.com/rakudo/rakudo/releases (see https://perl6.org/downloads/ for installation instructions)
 * Depending on how raku is installed, you may need to manually install zef, the raku package manager: https://github.com/ugexe/zef
 * Raku tutorial to get you started. I found this tutorial to be very good: https://perl6intro.com/
 * Full Raku documentation: https://docs.perl6.org/
