@@ -85,7 +85,7 @@ You can help make Perl great again (or more exactly, make Perl6/Raku great) in s
 
 It seems that Raku itself has mostly completed construction, pending performance optimization. It needs to be roughly 10x faster to be really comparable with Perl. The more important thing is to build the ecosystem. As of now, many essential packages for bioinformatics applicatios are still missing in Raku. My wishlist for Raku/Raku packages for 2020
 
-(1) Speed up Raku
-(2) Raku packages for math/statistics. Let's watch: https://github.com/pierre-vigier/Perl6-Math-Matrix
-(3) Raku packages for handling image IO (JPG, PNG, etc). Any candidate yet? Important for deeplearning
-(3) Light-weight Raku packages for web development. Let's watch: https://github.com/Bailador/Bailador
+* Speed up Raku
+* Raku packages for math/statistics. Let's watch: https://github.com/pierre-vigier/Perl6-Math-Matrix
+* Raku packages for handling image IO (JPG, PNG, etc). Any candidate yet? Important for deeplearning
+* Light-weight Raku packages for web development. Let's watch: https://github.com/Bailador/Bailador
