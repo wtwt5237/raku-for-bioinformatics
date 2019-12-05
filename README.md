@@ -87,5 +87,6 @@ It seems that Raku itself has mostly completed construction, pending performance
 
 * Speed up Raku
 * Raku packages for math/statistics. Let's watch: https://github.com/pierre-vigier/Perl6-Math-Matrix
+* Raku data visualization packages. Something like R ggplot or plotly
 * Raku packages for handling image IO (JPG, PNG, etc). Any candidate yet? Important for deeplearning
 * Light-weight Raku packages for web development. Let's watch: https://github.com/Bailador/Bailador
