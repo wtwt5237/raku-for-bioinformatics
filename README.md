@@ -56,11 +56,11 @@ This section provides a benchmark of performance of Raku, for a simple and barel
 | benchmark2.p6  | 2020.09       |  test2.sam    |   5.885      |   51.270       |  1.255       |                         |
 | benchmark2.p6  | 2020.10       |  test2.sam    |   6.268      |   56.761       |  1.861       |                         |
 | benchmark2.p6  | 2020.12       |  test2.sam    |   6.131      |   56.368       |  1.561       |                         |
-| benchmark2.p6  | 2020.02.1     |  test2.sam    |   6.509      |   56.179       |  1.359       |                         |
-| benchmark2.p6  | 2020.03       |  test2.sam    |   6.261      |   56.393       |  1.810       |                         |
-| benchmark2.p6  | 2020.04       |  test2.sam    |   6.212      |   53.935       |  1.664       |                         |
-| benchmark2.p6  | 2020.05       |  test2.sam    |   6.385      |   56.497       |  1.610       |                         |
-| benchmark2.p6  | 2020.06       |  test2.sam    |   6.736      |   67.202       |  1.742       |                         |
+| benchmark2.p6  | 2021.02.1     |  test2.sam    |   6.509      |   56.179       |  1.359       |                         |
+| benchmark2.p6  | 2021.03       |  test2.sam    |   6.261      |   56.393       |  1.810       |                         |
+| benchmark2.p6  | 2021.04       |  test2.sam    |   6.212      |   53.935       |  1.664       |                         |
+| benchmark2.p6  | 2021.05       |  test2.sam    |   6.385      |   56.497       |  1.610       |                         |
+| benchmark2.p6  | 2021.06       |  test2.sam    |   6.736      |   67.202       |  1.742       |                         |
 
 Raku does have a built-in profiler for measuring performance of codes, but I do find it hard to understand its output
 
